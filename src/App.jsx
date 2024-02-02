@@ -18,7 +18,7 @@ const App = () => {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': import.meta.env.API_KEY
+                'Authorization': process.env.API_KEY
             }
         }
 
